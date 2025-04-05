@@ -1,0 +1,40 @@
+name:
+    css: '#productTitle'
+    type: Text
+price:
+    css: 'span.reinventPricePriceToPayMargin span.a-price-whole, span.a-price span.a-offscreen, #priceblock_ourprice, #priceblock_dealprice'
+    type: Text
+short_description:
+    css: '#feature-bullets .a-list-item'
+    type: Text
+rating:
+    css: '#acrPopover, .a-icon-star .a-icon-alt'
+    type: Text
+number_of_reviews:
+    css: '#acrCustomerReviewText, .totalRatingCount'
+    type: Text
+product_description:
+    css: '#productDescription, .a-spacing-small:contains("Product Description")'
+    type: Text
+sales_rank:
+    css: 'tr:contains("Best Sellers Rank"), #SalesRank'
+    type: Text
+title:
+    css: '#productTitle'
+    type: Text
+style_code:
+    css: 'li span.a-text-bold:contains("Item model number") + span, .po-style .po-break-word'
+    type: Text
+asin:
+    css: '#ASIN, input[name="ASIN"], input[name="asin"]'
+    type: Attribute
+    attribute: value
+stock_status:
+    css: '#availability span, #outOfStock'
+    type: Text
+about_this_item:
+    css: '#productDescription, #detailBullets_feature_div .a-list-item'
+    type: Text
+top_critical_review:
+    css: '#cm-cr-dp-review-list div[data-hook="review"]:first-child span[data-hook="review-body"]'
+    type: Text
